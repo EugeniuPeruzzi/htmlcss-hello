@@ -1,0 +1,24 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Delicious Handrawn', cursive;
+}
+
+.container{
+    height: 500px;
+    width: 500px;
+    background-color: blanchedalmond;
+    text-align: center;
+    position: absolute;
+}
+
+.contained{
+position: relative;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+}
+
+h2{
+    padding-top: 40px;
+}
